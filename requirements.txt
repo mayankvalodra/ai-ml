@@ -1,4 +1,4 @@
 streamlit
+numpy
 joblib
-xgboost
-sklearn
+scikit-learn
