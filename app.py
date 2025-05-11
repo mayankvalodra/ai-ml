@@ -6,7 +6,8 @@ import joblib
 import pickle
 
 # Load the model using joblib
-data = joblib.load(r"C:\Users\Lenovo\OneDrive\Desktop\mayank\fuel_model.pkl")
+data = joblib.load("fuel_model.pkl")
+
 
 model = data['model']
 scaler = data['scaler']
